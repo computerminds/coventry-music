@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Computerminds Frodj Popup",
+  "version": "1.3",
+  "description": "Open Frodj directly from chrome",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	  "default_title": "Open Frodj for Spotify"
+  },
+  "permissions": [
+    "tabs", "http://*/*"
+  ]
+}
